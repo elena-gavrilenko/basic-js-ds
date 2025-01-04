@@ -1,4 +1,4 @@
-const { NotImplementedError } = require("../extensions/index.js");
+const { NotImplementedError } = require('../extensions/index.js');
 
 // const { ListNode } = require('../extensions/list-node.js');
 
@@ -30,12 +30,12 @@ function removeKFromList(l, k) {
       this.value = x;
       this.next = null;
     }
-    removeAt(index){
-      if (index<0)
+    removeAt(index) {
+      if (index < 0);
     }
-  remove (elem){
-    this.removeAt(this.indexOf(elem))
-  }
+    remove(elem) {
+      this.removeAt(this.indexOf(elem));
+    }
   }
 }
 
